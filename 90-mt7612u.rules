@@ -1,0 +1,1 @@
+ACTION=="add", SUBSYSTEM=="net", DRIVERS=="mt76x2u", ENV{NM_UNMANAGED}="1"
