@@ -3,7 +3,7 @@
 
 ```
 cd /usr/src
-git clone https://github.com/perillamint/mt76-dkms.git mt76-<mt76-commithash>
+git clone --recursive https://github.com/perillamint/mt76-dkms.git mt76-<mt76-commithash>
 dkms add mt76/<mt76-commithash>
 dkms build mt76/<mt76-commithash>
 dkms install mt76/<mt76-commithash>
