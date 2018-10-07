@@ -19,6 +19,8 @@ cd src/firmware
 sudo cp -v *.bin /usr/lib/firmware/
 ```
 
-## Note about known issues of mt76
+## Note about who want to use it as monitor mode only dongle
 
-mt76 does not play well with NetworkManager (see issue https://github.com/openwrt/mt76/issues/139). If you want its monitor mode capability only, you can simply disable it from NetworkManager using udev rule (see 90-mt7612u.rules).
+You may experience problem with NetworkManager when you try to use wifi dongle with airmon-ng.
+
+If you want its monitor mode capability only, you can simply disable it from NetworkManager using udev rule (see 90-mt7612u.rules).
